@@ -77,4 +77,6 @@ exports.handler = (event, context, callback) => {
 ```
 
 ## 5) Open your faunadb in the faunadb web UI to confirm that the Message class and the index have been created
+adding items to the Messages class is as follows: `client.query(q.Create(q.Ref('classes/Messages'), {data: {exampleKey: 'example value'} }))`
 
+Put into words: the second parameter of q.Create takes an object with a data propety, where the value of this data property is itself an object that has the data you want to put into the database.

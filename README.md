@@ -86,4 +86,4 @@ adding items to the Messages class is as follows: `client.query(q.Create(q.Ref('
 Put into words: the second parameter of q.Create takes an object with a data propety, where the value of this data property is itself an object that has the data you want to put into the database.
 
 ## "errorMessage":"n is not a function"
-This error is caused by your webpack.config.js not properly being added to your start/build command. Check for that step 3 was done correctly and that there are no typos in your webpack.config.js file. If your webpack.config.js worked properly you would get a more meaningful error message due to the `mode: "development"`
+This error is caused by your webpack.config.js not properly being added to your start/build commands. Check for that step 3 was done correctly and that there are no typos in your webpack.config.js file. If your webpack.config.js worked properly you would get a more meaningful error message due to the `mode: "development"`

@@ -1,5 +1,7 @@
 This tutorial uses this repo as a starting point:  
-https://github.com/andrewdownie/standalone-serverless-backend-using-netlify-lambda
+https://github.com/andrewdownie/standalone-serverless-backend-using-netlify-lambda  
+This tutorial is a part of this series:  
+https://github.com/andrewdownie/netlify-series
 
 ## 1) Get a faunadb secret key and save the key into your netlify environment variables
 TODO: This is easy, I'll try to find the resource I followed along with.

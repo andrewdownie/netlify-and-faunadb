@@ -84,3 +84,6 @@ exports.handler = (event, context, callback) => {
 adding items to the Messages class is as follows: `client.query(q.Create(q.Ref('classes/Messages'), {data: {exampleKey: 'example value'} }))`
 
 Put into words: the second parameter of q.Create takes an object with a data propety, where the value of this data property is itself an object that has the data you want to put into the database.
+
+## "errorMessage":"n is not a function"
+I'm pretty sure this is caused by the scripts not properly reading the webpack.config.js once on AWS. I haven't figured out why it happens yet, I think redeploying usually fixes this issue. If your webpack.config.js worked properly you would get a more meaningful error message due to the `mode: "development"`

@@ -5,8 +5,12 @@ This tutorial is a part of this series:
 https://github.com/andrewdownie/netlify-series
 
 ## 1) Get a faunadb secret key and save the key into your netlify environment variables
-TODO: This is easy, I'll try to find the resource I followed along with.
-Save your key to a variable with the name of **FAUNADB_SERVER_SECRET**. This variable will get pulled in during the netlify build, and we will reference it in step 4 using `process.env.FAUNADB_SERVER_SECRET`.
+https://github.com/netlify/netlify-faunadb-example#2-setup-faunadb  
+The above tutorials pictures are out of date, but it's easy enough to follow along with just the description.  
+
+In the linked tutorial you will created a faunadb database, generate an access key to that database, and then save your key to a variable with the name of **FAUNADB_SERVER_SECRET** in your netlify project.  
+
+This variable will get pulled in during the netlify build, and we will reference it in step 4 using `process.env.FAUNADB_SERVER_SECRET`.
 
 ## 2) In the root folder of standalone-serverless-backend-using-netlify-lambda, install the faunadb package:  
 ```js

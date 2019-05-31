@@ -24,14 +24,14 @@ The `mode: "development"` is optional, and will prevent the resulting JS from be
 var webpack = require('webpack');
 
 module.exports = {
-  plugins: [
-    new webpack.DefinePlugin({"global.GENTLY": false})
-  ],
-  node: {
-    __dirname: true
-  },
-  mode: "development"
-}
+    plugins: [
+        new webpack.DefinePlugin({"global.GENTLY": false})
+    ],
+    node: {
+        __dirname: true
+    },
+    mode: "development"
+};
 ```
 
 ## 3) Modify the start and build scripts in the package.json file to reference the webpack.config.js file you just created:  

@@ -23,7 +23,7 @@ The `mode: "development"` is optional, and will prevent the resulting JS from be
 ```js
 var webpack = require('webpack');
 
-modules.export = {
+module.export = {
   plugins: [
     new webpack.DefinePlugin({"global.GENTLY": false})
   ],

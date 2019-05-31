@@ -15,7 +15,7 @@ npm i faunadb
 
 ## 2) In the root folder, create a file named webpack.config.js, and file it with the following:  
 This will fix an import error caused by the netlify-lambda package when trying to import node modules
-The **mode: "development"** is optional, and will prevent the resulting JS from being uglified, which is needed for debugging code issues
+The `mode: "development"` is optional, and will prevent the resulting JS from being uglified, which is needed for debugging code issues
 ```js
 var webpack = require('webpack');
 
